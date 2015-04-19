@@ -39,8 +39,10 @@ public class ImagePHash {
 
     public int distance(String s1, String s2) {
         int counter = 0;
-        for (int k = 0; k < s1.length(); k++) {
-            if (s1.charAt(k) != s2.charAt(k)) {
+        for (int k = 0; k < s1.length(); k++)
+        {
+            if (s1.charAt(k) != s2.charAt(k))
+            {
                 counter++;
             }
         }
